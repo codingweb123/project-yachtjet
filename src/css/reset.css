@@ -1,34 +1,41 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
   list-style: none;
 }
-
 a {
   color: currentColor;
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
 }
-
+textarea {
+  resize: none;
+}
 img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
+}
+button {
+  outline: none;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.28;
+  -webkit-appearance: button;
+  appearance: button;
+  cursor: pointer;
+}
+html {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
 }
