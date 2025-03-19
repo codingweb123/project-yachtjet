@@ -6,6 +6,6 @@ document.querySelectorAll('.close').forEach(
   item =>
     (item.onclick = e => {
       e.preventDefault();
-      document.querySelector('.menu-overlay').remove('is-open');
+      document.querySelector('.menu-overlay').classList.remove('is-open');
     })
 );
