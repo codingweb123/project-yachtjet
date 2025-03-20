@@ -1,1 +1,41 @@
 /* HEADER */
+.header {
+  margin-top: 20px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  width: 335px;
+  height: 42px;
+  background-color: #fbfbfb;
+}
+.header-logo {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
+.nav-list,
+.header-soc-media-list {
+  display: none;
+}
+
+.burger-btn {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+}
+.burger-icon {
+  display: block;
+  fill: #1b414b;
+}
+
+@media screen and (min-width: 375px) {
+  .header-container {
+    width: 335px;
+  }
+}
