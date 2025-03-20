@@ -1,1 +1,45 @@
 /* ABOUT */
+
+.about {
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  width: 335px;
+  height: 675px;
+  padding-top: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about-title {
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+
+.about-descr-text {
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+.about-img {
+  width: 335px;
+  height: 395px;
+  border-radius: 24px;
+  position: absolute;
+  top: 380px;
+  left: 0;
+  overflow: hidden;
+}
