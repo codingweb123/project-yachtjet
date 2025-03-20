@@ -1,1 +1,109 @@
 /* REVIEWS */
+.section {}
+
+.reviews {}
+
+.container {}
+
+.rev-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.rev-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    opacity: 0.4;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rev-list {}
+
+.rev-item {
+    border-radius: 24px;
+    padding: 32px 8px;
+    max-width: 335px;
+    background-color: #fbfbfb;
+}
+
+.rev-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.rev-card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.rev-card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #040306;
+}
+
+.rev-card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+    max-width: 306px;
+}
+
+.rev-item.rev-two,
+.rev-item.rev-three {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .rev-title {
+        font-size: 48px;
+    }
+
+    .rev-text {
+        font-size: 14px;
+        line-height: 1.29;
+        margin-bottom: 75px;
+        max-width: 571px;
+    }
+
+    .rev-item.rev-two {
+        display: block;
+    }
+
+    .rev-list {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .rev-item {
+        flex-basis: calc((100% - 32px) / 2);
+    }
+
+    .rev-card-text.victoria-text {
+        max-width: 296px;
+    }
+}
