@@ -6,8 +6,10 @@
     letter-spacing: -0.02em;    
     color: #fbfbfb;
     margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    max-width: 335px;
+    max-width: 335px;    
 }
 
 .rev-text {
@@ -33,6 +35,12 @@
     gap: 8px;
 }
 
+.reviews .container .rev-list .rev-item img {
+   width: 56px; 
+   height: 56px;
+   border-radius: 50%;
+}
+
 .rev-card-title {
     font-weight: 500;
     font-size: 18px;
@@ -50,7 +58,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(4, 3, 6, 0.4);
-    max-width: 306px;
+    max-width: 303px;
 }
 
 .rev-item.rev-two,
@@ -85,7 +93,10 @@
         flex-basis: calc((100% - 32px) / 2);
     }
 
-    .rev-card-text.victoria-text {
+    .rev-card-text {
+        max-width: 304px;
+    }
+    .rev-item:nth-child(2) .rev-card-text {
         max-width: 296px;
     }
 }
