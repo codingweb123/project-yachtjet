@@ -107,8 +107,11 @@
         gap: 26px;
     }
     .rev-item {
-        flex-basis: calc((100% - 26px) / 3);
-        max-width: 376px;
+        flex-basis: calc((100% - 2*50px) / 3);
+        min-width: 376px;
+    }
+    .rev-card-text {
+        max-width: 320px;
     }
 }
 @media screen and (min-width: 1440px) {
@@ -116,7 +119,7 @@
         gap: 32px;
     }
     .rev-item {
-        flex-basis: calc((100% - 32px) / 3);
-        max-width: 392px;
+        flex-basis: calc((100% - 2*100px) / 3);
+        min-width: 392px;
     }
 }
