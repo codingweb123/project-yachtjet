@@ -107,7 +107,7 @@
         gap: 26px;
     }
     .rev-item {
-        width: 1180px;
+        flex-basis: calc((100% - 52px) / 3);
         max-width: 376px;
         padding-left: 28px;
         padding-right: 28px;
@@ -124,7 +124,7 @@
         gap: 32px;
     }
     .rev-item {
-        width: 1240px;
+        flex-basis: calc((100% - 64px) / 3);
         max-width: 392px;
         padding-left: 36px;
         padding-right: 36px;
