@@ -107,8 +107,10 @@
         gap: 26px;
     }
     .rev-item {
-        flex-basis: calc((100% - 2*50px) / 3);
-        min-width: 376px;
+        flex-basis: calc((100% - 100px) / 3);
+        max-width: 376px;
+        padding-left: 28px;
+        padding-right: 28px;
     }
     .rev-card-text {
         max-width: 320px;
@@ -119,7 +121,9 @@
         gap: 32px;
     }
     .rev-item {
-        flex-basis: calc((100% - 2*100px) / 3);
-        min-width: 392px;
+        flex-basis: calc((100% - 200px) / 3);
+        max-width: 392px;
+        padding-left: 36px;
+        padding-right: 36px;
     }
 }
