@@ -115,6 +115,9 @@
     .rev-card-text {
         max-width: 320px;
     }
+    .rev-item:nth-child(3) .rev-card-text {
+        max-width: 293px;
+    }
     .rev-item:nth-child(2) .rev-card-text {
         max-width: 320px;
     }
@@ -129,4 +132,5 @@
         padding-left: 36px;
         padding-right: 36px;
     }
+    
 }
