@@ -96,3 +96,41 @@
         max-width: 296px;
     }
 }
+@media screen and (min-width: 1280px) {
+    .rev-title {
+        max-width: 854px;
+    }
+    .rev-item.rev-three {
+        display: flex;
+    }
+    .rev-list {
+        gap: 26px;
+    }
+    .rev-item {
+        flex-basis: calc((100% - 52px) / 3);
+        max-width: 376px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .rev-card-text {
+        max-width: 320px;
+    }
+    .rev-item:nth-child(3) .rev-card-text {
+        max-width: 293px;
+    }
+    .rev-item:nth-child(2) .rev-card-text {
+        max-width: 320px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .rev-list {
+        gap: 32px;
+    }
+    .rev-item {
+        flex-basis: calc((100% - 64px) / 3);
+        max-width: 392px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    
+}
