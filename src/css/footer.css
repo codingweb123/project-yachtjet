@@ -32,35 +32,34 @@ background-color: #1b414b;
       max-width: 1390px;
     }
   }
+
+  /* .footer-menu{
+    display: flex;
+    justify-content: space-between;
+  } */
   .footer-menu-logo{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 37px;
-      }
+      } 
   .logo-footer{
     font-weight: 500;
 font-size: 14px;
 letter-spacing: -0.03em;
 color: #fbfbfb;
-padding-bottom: 22px;
   }
 .footer-menu-btn{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     gap: 4px;
     }
 
-.footer-menu-link{
-    
-}
-
 .footer-btn{
 border-radius: 8px;
 min-width: 66px;
-background-color: rgba(251, 251, 251, 0.3);
+background: rgba(251, 251, 251, 0.3);
 padding-top: 15px;
 padding-bottom: 15px;
 font-size: 9px;
@@ -68,12 +67,97 @@ line-height: 1.3;
 text-transform: uppercase;
 text-align: center;
 color: #fbfbfb;
-}
-.footer-link-btn{
- 
+margin-bottom: 80px;
 }
 .footer-btn:hover,
 .footer-btn:focus{
-  background-color: #fbfbfb;
+  background: #fbfbfb;
   color: #1b414b;
+}
+
+.footer-social{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.footer-social-item{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  }
+.footer-icon{
+  fill: #fbfbfb;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .footer-menu{
+      display: flex;
+      justify-content: space-between;
+    } 
+    .footer-menu-logo{
+      gap: 110px;
+        } 
+  }
+  /* @media only screen and (min-width: 1280px) {
+    .footer-slog {
+      max-width: 693px;
+       }
+  }
+  @media only screen and (min-width: 1440px) {
+    .footer-slog {
+      max-width: 699px;
+    }
+  } */
+
+.footer-slog{
+  max-width: 279px;
+  font-size: 18px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-align: center;
+color: #fbfbfb;
+margin-bottom: 82px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-slog {
+    max-width: 640px;
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-slog {
+    max-width: 693px;
+     }
+}
+@media only screen and (min-width: 1440px) {
+  .footer-slog {
+    max-width: 699px;
+  }
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-text-slog{
+  font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+color: rgba(251, 251, 251, 0.4);
+}
+@media only screen and (min-width: 768px) {
+  .footer-text{
+    gap: 32px;
+  }
+  .footer-text-slog{
+    font-size: 14px;
+  line-height: 1.18;
+    }
 }
