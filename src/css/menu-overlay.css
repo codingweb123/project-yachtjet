@@ -6,12 +6,12 @@
     width: 100%;
     height: 100%;
     background-color: #0E1823;
-    visibility: hidden;
+    pointer-events: none;
     opacity: 0;
-    transition: opacity 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: opacity var(--animation-time) var(--animation-transition);
 }
 .menu-overlay.is-open{
-    visibility: visible;
+    pointer-events: auto;
     opacity: 1;
 }
 .menu{
@@ -54,17 +54,16 @@
 }
 .svg-link-burger{
     fill: #FBFBFB;
-    transition: fill 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: fill var(--animation-time) var(--animation-transition);
 }
-.svg-link-burger:focus, .svg-link-burger:hover {
+.a-link-burger:focus .svg-link-burger, .a-link-burger:hover .svg-link-burger{
     fill: rgba(251, 251, 251, 0.8);
-} 
+}
 .a-link-burger{
     width: 24px;
     height: 24px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .div-nav{
     position: absolute;
@@ -85,16 +84,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: background-color var(--animation-time) var(--animation-transition);
 }
 .a-nav-burger:focus, .a-nav-burger:hover{
     background-color: #1B414B;
 }
-.ul-nav-burger li{
+.ul-nav-burger li:not(:last-child){
     margin-bottom: 4px;
-}
-.ul-nav-burger li:last-child {
-    margin-bottom: 0px;
 }
 .active{
     background-color: #1B414B;
