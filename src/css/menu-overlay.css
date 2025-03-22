@@ -65,6 +65,7 @@
     height: 24px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .div-nav{
     margin-top: -159px;
